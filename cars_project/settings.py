@@ -71,7 +71,9 @@ TEMPLATES = [
 WSGI_APPLICATION = 'cars_project.wsgi.application'
 
 
-
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO_STRING': False
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
