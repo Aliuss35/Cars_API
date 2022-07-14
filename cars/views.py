@@ -5,7 +5,7 @@ from rest_framework import status
 from rest_framework.response import Response
 from .models import Car
 from .serializers import CarSerializer
-from cars import serializers
+
 
 
 #this is how we add decorators
